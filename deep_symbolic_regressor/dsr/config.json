@@ -1,8 +1,8 @@
 {
    "task": {
       "task_type" : "regression",
-      "name" : "Nguyen",
-      "function_set": null,
+      "name" : "gsr",
+      "function_set": ["add", "sub", "mul", "div", "sqrt", "log", "abs", "neg", "inv", "sin", "cos", "tan", "exp"],
       "dataset" : {
          "name" : null,
          "noise": null,
@@ -24,7 +24,7 @@
    "training": {
       "logdir": "./log",
         "n_epochs": null,
-        "n_samples": 2000000,
+        "n_samples": 1000000,
         "batch_size": 1000,
         "complexity": "length",
         "complexity_weight": 0.0,
@@ -32,7 +32,7 @@
         "const_params": {},
         "alpha": 0.5,
         "epsilon": 0.05,
-        "verbose": true,
+        "verbose": false,
         "baseline": "R_e",
         "b_jumpstart": false,
         "n_cores_batch": 1,
